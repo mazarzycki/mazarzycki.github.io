@@ -1,12 +1,11 @@
 body {
     background-color: rgb(154, 163, 155);
-    margin: 20px;
+    margin: 20px 100px;
     font-family: 'Josefin Sans', sans-serif;
 }
 /*Header*/
 header {
     height: 35vh;
-    margin: 0 5%;
     background-color: rgb(26, 37, 37);
     text-align: center;
     border-bottom: 1px solid black;
@@ -22,16 +21,17 @@ header {
 }
 .social-links {
     display: inline; 
+    font-size: 25px;
 }
 .social-media {
     margin: 5px 50px;
 }
-.fa-2x {
+.icon {
     color: rgb(154, 163, 155) ;
     transition: transform .2s;
     padding: 5px 0;    
 }
-.fa-2x:hover {
+.icon:hover {
     color: rgb(14, 43, 207);
     transform: scale(1.2);
 }
@@ -41,13 +41,11 @@ p {
     margin-bottom: 50px;
 }
 .main-page{
-    margin: 0 10%;
     text-align: justify;
 }
 .about {
     font-size: 22px;
     line-height: 35px;
-    
 }
 .flag {
     width: 20px;
@@ -92,13 +90,11 @@ p {
 }
 /*Footer*/
 footer {
-    
     background-color: cadetblue;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 0.7em;
     bottom: 0;
-    margin: 0 5%;
     padding: 10px;
     display: flex;
     box-shadow: 
@@ -111,10 +107,16 @@ footer {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
+@media only screen and (max-width: 600px) {
+    header {font-size: 25px;}
+    .social-links {font-size: 23px;}
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+    header {font-size: 25px;}
+    .social-links {font-size: 25px;}
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {...}
