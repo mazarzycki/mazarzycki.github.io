@@ -20,7 +20,7 @@ header {
     -8px -8px 12px 0 rgba(189, 185, 185, 0.863);
 }
 .social-links {
-    display: inline; 
+    display: inline-flex; 
     font-size: 25px;
 }
 .social-media {
@@ -106,30 +106,25 @@ footer {
     padding: 0 20px;
 }
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/*Small*/
+@media only screen and (max-width: 640px) {
     body {margin: 10px 40px;}
-    header {font-size: 25px;}
-    .social-links {font-size: 22px;}
+    header {font-size: 15px;}
+    .social-links {font-size: 15px; display: flex; flex-wrap: wrap; margin-left: 40px;}
+    .projects{flex-direction: column;}
+    .project{width: auto;}
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Medium */
+@media only screen and (min-width: 641px) {
     body {margin: 10px 45px;}
     header {font-size: 25px;}
-    .social-links {font-size: 25px;}
+    .social-links {font-size: 20px;}
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    body {margin: 20px 100px;}
-    header {font-size: 30px;}
-    .social-links {font-size: 25px;}
-}
+/* Large */
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1008px) {
     body {margin: 20px 100px;}
     header {font-size: 35px;}
     .social-links {font-size: 25px;}
