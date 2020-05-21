@@ -77,9 +77,10 @@ p {
 }
 .project>a {
     margin-left: 10px;
-    text-decoration: none;
-    color: rgba(15, 5, 3, 0.801);
-    font-weight: 700;
+    text-decoration: underline;
+    color: rgba(20, 4, 1, 0.801);
+    font-weight: 600;
+    font-size: 1.2em;
 }
 .project>a:hover {
     text-shadow: 1px 1px 2px black;
