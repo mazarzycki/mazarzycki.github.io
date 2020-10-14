@@ -4,6 +4,17 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 /*Header*/
+
+.icon {
+    color: rgb(52, 54, 52) ;
+    transition: transform .2s;
+    padding: 5px 0;    
+}
+.icon:hover {
+    color: rgb(14, 43, 207);
+    transform: scale(1.2);
+}
+/*
 header {
     height: 35vh;
     background-color:rgb(204, 220, 252);
@@ -35,6 +46,7 @@ header {
     color: rgb(14, 43, 207);
     transform: scale(1.2);
 }
+*/
 
 /*About*/
 p {
