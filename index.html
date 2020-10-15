@@ -14,7 +14,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marek Zarzycki</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/edbbd20e25.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
@@ -23,92 +24,107 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light border-bottom">
-            
-            <ul class="navbar-nav">
-                <div class="nav-item pr-5">Marek Zarzycki</div>
-                <li class="nav-item pr-4 pl-4">
-                    <a href="https://github.com/mazarzycki" class="nav-link" target="_blank" title="Github"><i
-                        class="fab fa-github fa-1x icon"></i></a>  
-                </li>
-                <li class="nav-item pr-4 pl-4">
-                    <a href="https://dev.to/mazarzycki" class="nav-link" target="_blank" title="Dev.to"><i
-                        class="fab fa-dev fa-1x icon"></i></a>
-                </li>
-                <li class="nav-item pr-4 pl-4">
-                    <a href="https://www.linkedin.com/in/marek-zarzycki-414ab62/" class="nav-link" target="_blank"
-                    title="Linkedin"><i class="fab fa-linkedin fa-1x icon"></i></a>
-                </li>
-                <li class="nav-item pr-4 pl-4">
-                    <a href="#contact" class="nav-link" title="Contact"><i class="far fa-envelope fa-1x icon"></i></a>
-                </li>          
-            </ul>
-           
-        </nav>
-        
+        <div class="container-fluid">
+            <h1 class="name">Marek Zarzycki</h1>
+            <nav class="navbar navbar-expand-lg navbar-light">
 
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item pr-3 pl-3">
+                        <a href="https://github.com/mazarzycki" class="nav-link text-dark" target="_blank"
+                            title="Github"><i class="fab fa-github fa-1x icon pr-2"></i>Github</a>
+                    </li>
+                    <li class="nav-item pr-3 pl-3">
+                        <a href="https://dev.to/mazarzycki" class="nav-link text-dark" target="_blank" title="Dev.to"><i
+                                class="fab fa-dev fa-1x icon pr-2"></i>Blog</a>
+                    </li>
+                    <li class="nav-item pr-3 pl-3">
+                        <a href="https://www.linkedin.com/in/marek-zarzycki-414ab62/" class="nav-link text-dark"
+                            target="_blank" title="Linkedin"><i class="fab fa-linkedin fa-1x icon pr-2"></i>Linkedin</a>
+                    </li>
+                    <li class="nav-item pr-3 pl-3">
+                        <a href="#contact" class="nav-link text-dark" title="Contact"><i
+                                class="far fa-envelope fa-1x icon pr-2"></i>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div class="main-page">
-        <p>
-        <h2>Hi, I'm Marek</h2>
-        <div class="about">
-            I'm a front-end developer who loves to code and to learn. <br/> I've been using HTML, CSS,
-            JavaScript and jQuery for my projects. Currently I'm learning Angular and Python. <br />
+    <div class="container-fluid">
+        <div class="main-page">
+            <p>
+            <h2>Hi, I'm Marek</h2>
+            <div class="about">
+                I'm a front-end developer who loves to code and to learn. <br /> I've been using HTML, CSS,
+                JavaScript and jQuery for my projects. Currently I'm learning Angular and Python. <br />
 
-            I speak Polish <img src="./Icons/Polish.png" alt="Polish flag" class="flag">, English <img
-                src="./Icons/English.png" alt="American flag" class="flag">, Portuguese <img
-                src="./Icons/Portuguese.png" alt="Brazilian flag" class="flag">, Russian <img src="./Icons/Russian.png"
-                alt="Russian flag" class="flag">, German <img src="./Icons/German.png" alt="German flag" class="flag">
-            and
-            Spanish <img src="./Icons/Spanish.png" alt="Spanish flag" class="flag">. <br />
+                I speak Polish <img src="./Icons/Polish.png" alt="Polish flag" class="flag">, English <img
+                    src="./Icons/English.png" alt="American flag" class="flag">, Portuguese <img
+                    src="./Icons/Portuguese.png" alt="Brazilian flag" class="flag">, Russian <img
+                    src="./Icons/Russian.png" alt="Russian flag" class="flag">, German <img src="./Icons/German.png"
+                    alt="German flag" class="flag">
+                and
+                Spanish <img src="./Icons/Spanish.png" alt="Spanish flag" class="flag">. <br />
 
-            I'm looking for professional development opportunities.
+                I'm looking for professional development opportunities.
+            </div>
+            </p>
+            <p>
+            <h2> Here are examples of my work:</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="card rounded">
+                        <div class="card-body">
+                            <h5 class="card-title">Browser Game</h5>
+                            <a href="https://mazarzycki.github.io/AdventureGame/" target="_blank"
+                                title="Adventure Game written in JavaScript" class="btn btn-primary mb-3">Check it</a>
+                            <div class="card-text mb-4">Made with JavaScript, HTML, CSS</div>
+                        </div>
+                    </div>
+
+                    <div class="card rounded">
+                        <div class="card-body">
+                            <h5 class="card-title">Real Murcia website</h5>
+                            <a href="https://mazarzycki.github.io/Real-Murcia-website/index.html" target="_blank"
+                                title="Real Murcia website" class="btn btn-primary mb-3">Check it</a>
+                            <div class="card-text mb-4">Made with HTML, CSS</div>
+                        </div>
+
+                    </div>
+
+                    <div class="card rounded">
+                        <div class="card-body">
+                            <h5 class="card-title">Brazilian Tax ID tool</h5>
+                            <a href="https://mazarzycki.github.io/CPFandCNPJconverter/" target="_blank"
+                                title="Brazilian Tax ID converter" class="btn btn-primary mb-3">Check it</a>
+                            <div class="card-text">Made with HTML, CSS, jQuery</div>
+                        </div>
+                    </div>
+
+                    <div class="card rounded">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather App</h5>
+                            <a href="https://mazarzycki.github.io/WeatherApp/" target="_blank" title="Weather App"
+                                class="btn btn-primary mb-3">
+                                Check it</a>
+                            <div class="card-text">Made with HTML, CSS, jQuery</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            </p>
+            <p id="contact">
+            <h2>Contact</h2>
+            <div id="phone" class="contact-details">Phone: 0048 501 641 065</div> <br />
+            <div id="email" class="contact-details">E-mail: <e-mail>zarzycki.marek@yahoo.com.br</e-mail>
+            </div>
+            </p>
         </div>
-        </p>
-        <p>
-        <h2> Here are some of my personal projects:</h2>
-        <div class="projects">
-
-            <div class="project">
-                <a href="https://mazarzycki.github.io/AdventureGame/" target="_blank"
-                    title="Adventure Game written in JavaScript">Fantastic Adventure</a> 
-
-                <div class="description">A browser game.</div>
-                <div class="stack">Written with: JavaScript, HTML, CSS.</div>
-            </div>
-            <div class="project">
-                <a href="https://mazarzycki.github.io/Real-Murcia-website/index.html" target="_blank"
-                    title="Real Murcia website">Real Murcia website</a> 
-
-                <div class="description">English language website for Real Murcia.</div>
-                <div class="stack">Written with: HTML, CSS</div>
-            </div>
-            <div class="project">
-                <a href="https://mazarzycki.github.io/CPFandCNPJconverter/" target="_blank"
-                    title="Brazilian Tax ID converter">Brazilian Tax ID number converter</a>
-
-                <div class="description">Converts CPF and CNPJ into correct format. </div>
-                    <div class="stack">Written with: HTML, CSS, jQuery</div>
-            </div>
-            <div class="project">
-                <a href="https://mazarzycki.github.io/WeatherApp/" target="_blank"
-                    title="Weather App">Weather App</a>
-
-                <div class="description"> Check current weather conditions in selected location (data from OpenWeatherMap API). </div>
-                <div class="stack">Written with: HTML, CSS, jQuery</div>
-            </div>
-
-
-        </div>
-        </p>
-        <p id="contact">
-        <h2>Contact</h2>
-        <div id="phone" class="contact-details">Phone: 0048 501 641 065</div> <br />
-        <div id="email" class="contact-details">E-mail: <e-mail>zarzycki.marek@yahoo.com.br</e-mail>
-        </div>
-        </p>
-    </div>
 </body>
+
+</div>
+
 <footer>
     <div class="footer-element">&copy; Marek Zarzycki 2020</div>
     <div class="footer-element">Flags by <a href="https://www.flaticon.com/"> Flaticon</a></div>

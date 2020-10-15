@@ -1,61 +1,39 @@
 body {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(252, 252, 252);
     margin: 20px 100px;
     font-family: 'Josefin Sans', sans-serif;
 }
 /*Header*/
+.name {
+    text-align: center;
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+}
 
 .icon {
     color: rgb(52, 54, 52) ;
-    transition: transform .2s;
     padding: 5px 0;    
 }
 .icon:hover {
     color: rgb(14, 43, 207);
     transform: scale(1.2);
-}
-/*
-header {
-    height: 35vh;
-    background-color:rgb(204, 220, 252);
-    text-align: center;
-    border-bottom: 1px solid black;
-    border-radius: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 2px 2px 3px gray;
-    
-    font-size: 35px;
-    padding: 7px 0;
-    box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(189, 185, 185, 0.863);
-}
-.social-links {
-    display: inline-flex; 
-    font-size: 25px;
-}
-.social-media {
-    margin: 5px 50px;
-}
-.icon {
-    color: rgb(52, 54, 52) ;
     transition: transform .2s;
-    padding: 5px 0;    
 }
-.icon:hover {
+.nav-item:hover {
     color: rgb(14, 43, 207);
     transform: scale(1.2);
+    transition: transform .2s;
 }
-*/
+
 
 /*About*/
 p {
     margin-bottom: 50px;
 }
-.main-page{
+.about{
     text-align: justify;
-}
-.about {
     font-size: 22px;
     line-height: 35px;
 }
@@ -69,45 +47,26 @@ p {
 .description {
     padding: 10px;
 }
-.stack {
-    padding: 10px;
-}
+
 /*Projects*/
-.projects {
-    display: flex;
-    flex-direction: row;
-}
-.project {
-    width: 350px;
-    background-color: rgb(204, 220, 252);
-    border-radius: 10px;
+.card {
+    width: 16rem;
+    margin: 0.4rem 0.8rem;
+    background-color: rgb(247, 249, 253);
     box-shadow: 
     12px 12px 16px 0 rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-    margin: 20px;
-    transition: transform .2s;
-    padding: 10px;
 }
-.project:hover {
-    transform: scale(1.05);
-}
-.project>a {
-    margin-left: 10px;
-    text-decoration: underline;
-    color: rgba(20, 4, 1, 0.801);
-    font-weight: 600;
-    font-size: 1.2em;
-}
-.project>a:hover {
-    text-shadow: 1px 1px 2px black;
-}
+
+
+
 /*Contact*/
 .contact-details {
     line-height: 10px;
 }
 /*Footer*/
 footer {
-    background-color:rgb(204, 220, 252);
+    background-color:rgb(247, 249, 253);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 0.7em;
@@ -126,23 +85,20 @@ footer {
 /*Small*/
 @media only screen and (max-width: 640px) {
     body {margin: 10px 40px;}
-    header {font-size: 15px;}
-    .social-links {font-size: 15px; display: flex; flex-wrap: wrap; margin-left: 40px;}
-    .projects{flex-direction: column;}
-    .project{width: auto;}
+    header {font-size: 25px;}
 }
 
 /* Medium */
 @media only screen and (min-width: 641px) {
     body {margin: 10px 45px;}
-    header {font-size: 25px;}
-    .social-links {font-size: 20px;}
+    header {font-size: 30px;}
+    
 }
 
 /* Large */
 
 @media only screen and (min-width: 1008px) {
-    body {margin: 20px 100px;}
-    header {font-size: 35px;}
-    .social-links {font-size: 25px;}
+    body {margin: 20px 90px;}
+    header {font-size: 30px;}
+   
 }
