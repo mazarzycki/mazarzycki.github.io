@@ -194,6 +194,10 @@ footer {
         padding: 0 1vw;
     }
 
+    .menu {
+        padding: .5vh;
+    }
+
     .about-image {
         display: none;
     }
