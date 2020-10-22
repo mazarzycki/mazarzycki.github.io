@@ -133,6 +133,14 @@ h2 {
     margin: 0 5vw 0 0;
 }
 
+.email {
+    color: #dfdfdf;
+}
+
+.email:hover {
+    color: #5c6baf;
+}
+
 h3 {
     color: rgb(248, 77, 77);
 }
