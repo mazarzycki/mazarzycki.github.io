@@ -35,7 +35,7 @@ li {
 }
 
 .menu a:hover {
-    color: rgb(248, 77, 77);
+    color:  #ff4b57c9;
 }
 
 h2 {
@@ -79,14 +79,14 @@ h2 {
 .social-media-link {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    border: rgb(248, 77, 77) 2px solid;
+    border: #ff4b57c9 2px solid;
     border-radius: 50%;
-    font-size: 6vh;
+    font-size: 5vh;
     margin: 0 1vw;
 }
 
 .social-media-link:hover {
-    background: rgb(248, 77, 77);
+    background:  #ff4b57c9;
 }
 
 .fab {
@@ -142,7 +142,7 @@ h2 {
 }
 
 h3 {
-    color: rgb(248, 77, 77);
+    color: #ff4b57c9;
 }
 
 .skills-cards {
@@ -152,7 +152,11 @@ h3 {
 
 .skills-cards i {
     padding: 5vh 5vw;
-    color: rgb(248, 77, 77);
+    color:  #ff4b57c9;
+}
+
+.fab:hover {
+    transform: scale(1.1);
 }
 
 #portfolio h3 {
@@ -175,6 +179,10 @@ h3 {
     padding: 0 5vw 0 0;
 }
 
+.image-link:hover {
+    transform: scale(1.05);
+}
+
 .project-description {
     width: 50%;
     line-height: 4vh;
@@ -182,7 +190,7 @@ h3 {
 
 .project-title {
     font-weight: 700;
-    color: rgb(248, 77, 77);
+    color: #ff4b57c9;
 }
 
 #contact .contact-data {
